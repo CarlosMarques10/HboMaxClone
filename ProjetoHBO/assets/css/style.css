@@ -1,0 +1,1164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #030328;
+}
+
+header{
+    background-color: #02021C;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#headerContainerLeft{
+   margin-left: 20px;
+}
+
+#headerContainerLeft a img{
+    width: 150px;
+
+}
+
+#headerContainerRight{
+    margin-right: 20px;
+}
+
+#headerContainerRight a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#headerContainerRight a:nth-child(2){
+    background-color: #B535F6;
+    padding: 12px 23px;
+    margin-left: 20px;
+    border-radius: 30px;
+    transition: 0.4s all ease-in-out;
+}
+
+#headerContainerRight a:nth-child(2):hover{
+    background-color: white;
+    color: black;
+}
+
+
+#container{
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url('../img/last-of-us-tv-2.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#containerContent{
+    width: 400px;
+    font-size: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#containerContent h3{
+    color: #F601FF;
+    text-transform: uppercase;
+}
+
+#containerContent h2, h5{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#containerContent{
+    font-size: 40px;
+}
+
+#containerContent a{
+    text-decoration: none;
+    background-color: #8027DA;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #8027DA;
+    transition: 0.3s all ease-in-out;
+}
+
+#containerContent a:hover{
+    background-color: transparent;
+    border: 1px solid #8027DA;
+}
+
+#containerContent p{
+    font-size: 13px;
+    margin-top: 10px;
+    color: white;
+}
+
+#planosContainer{
+
+}
+
+#planos{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+
+#planosConteudo{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#planosConteudo h4{
+    color: white;
+    font-size: 32px;
+}
+
+#planosConteudo p{
+    color: white;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#planosConteudoInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.planosConteudoInfoTopicos{
+    line-height: 28px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.planosConteudoInfoTopicos span{
+    color: #B535F6;
+}
+
+#degrade{
+    background: linear-gradient( #280f4f, #030328);
+}
+
+#tabelaContainer{
+    padding-top: 60px;
+}
+
+#tabelaPrecos{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, #290B5B, transparent);
+}
+
+.tabela:nth-child(2){
+    border: 2px solid #B535F6;
+  
+}
+
+.tabela h4{
+    font-size: 30px;
+}
+
+.tabela h2{
+    margin-top: 15px;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.tabela a{
+    margin-top: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #B535F6;
+    width: 270px;
+    padding: 15px 0;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #B535F6;
+    transition: 0.4s all ease-in-out;
+}
+
+.tabela a:hover{
+    border: 1px solid #8027DA;
+    background-color: transparent;
+}
+
+#planosAlerta{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.slider{
+    overflow: hidden;
+
+}
+
+.sliderWidth{
+    display: flex;
+    transition: all ease 0.3s;
+}
+
+.sliderItem{
+    width: 1200px;
+}
+
+
+#carroselDegrade{
+    background: linear-gradient(to bottom, #030328, #3E1160, #030328);
+}
+
+#carroselContainer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+#carroselTitulo{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carroselEsquerda{
+    color: white;
+}
+
+.carroselEsquerda h3{
+    font-size: 30px;
+}
+
+.carroselEsquerda h5{
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #B535F6;
+    font-size: 17px;
+    background: linear-gradient(to right, #360486, #B535F6, #5d19a0);
+    padding: 7px;
+}
+
+.carroselEsquerda p {
+    margin-top: 20px;
+    font-size: 19px;
+    max-width: 550px;
+}
+
+.carroselDireita img{
+    width: 550px;
+}
+
+.fotosIcones{
+    display: flex;
+}
+
+.fotosIconesItem{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.fotosIconesItem img{
+    width: 90px;
+    margin: auto;
+}
+
+.fotosIconesItem p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.sliderControls{
+    padding-top: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 120px;
+}
+
+.sliderControl{
+    cursor: pointer;
+}
+
+#btnAssine{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnAssine a{
+    text-decoration: none;
+    background-color: #8329DD;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 23px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.3s all ease-in-out;
+}
+
+#btnAssine a:hover{
+    background-color: transparent;
+    border: 2px solid #8027DA;
+}
+
+
+#episodiosContainer{
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#episodioTitulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+#episodiosGratis{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.episodio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.episodio a img{
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.episodio h4{
+    margin-top: -100px;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    max-width: 270px;
+    text-align: center;
+}
+
+.episodio p {
+    margin-top: 10px;
+    color: #F601FF;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btnAssistir{
+    display: flex;
+    justify-content: center;
+}
+
+#btnAssistir a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px 23px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    margin-top: 60px;
+    transition: 0.3s all ease-in-out;
+}
+
+#btnAssistir a:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+#infoContainer{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#infoTitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+#infoTitulo h4{
+    font-size: 33px;
+}
+
+#infoTitulo p{
+    margin-top: 15px;
+}
+
+#infoTelas{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+#infoConteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    max-height: 150px;
+}
+
+
+.info span{
+    width: 50px;
+    height: 2px;
+    background-color: #F601FF;
+    margin-bottom: 20px;
+}
+
+.info p{
+    max-width: 200px;
+    font-size: 20px;
+}
+
+#infoBottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.infoBottomConteudo{
+    height: auto;
+    
+}
+
+.infoBottomConteudo p{
+    color: white;
+    text-align: center;
+    max-width: 350px;
+    font-size: 33px;
+}
+
+.infoBottomConteudo img{
+    max-width: 100%;
+}
+
+#catalogosContainer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#catalogoTitulo{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#catalogoTitulo p{
+    color: white;
+    font-size: 35px;
+}
+
+#catalogosConteudo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+#catalogo1{
+    background-image: url('../img/hbo-default_0.webp');
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    transition: 0.4s all ease-in-out;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#catalogo1:hover{
+    background-image: url('../img/hbo-hover_0.webp');
+}
+
+#catalogo2{
+    background-image: url('../img/MAX-Default.webp');
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    transition: 0.4s all ease-in-out;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#catalogo2:hover{
+    background-image: url('../img/MAX-Hover.webp');
+}
+
+#catalogo3{
+    background-image: url('../img/DC_Default.webp');
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    transition: 0.4s all ease-in-out;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#catalogo3:hover{
+    background-image: url('../img/DC-Hover.webp');
+}
+
+#catalogo4{
+    background-image: url('../img/WB-Default.webp');
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    transition: 0.4s all ease-in-out;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#catalogo4:hover{
+    background-image: url('../img/WB-Hover.webp');
+}
+
+#catalogo5{
+    background-image: url('../img/CN-Default.avif');
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    transition: 0.4s all ease-in-out;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#catalogo5:hover{
+    background-image: url('../img/CN-Hover.png');
+}
+
+#catalogo6{
+    background-image: url('../img/UCL-Default.avif');
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    transition: 0.4s all ease-in-out;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#catalogo6:hover{
+    background-image: url('../img/UCL-Hover.avif');
+}
+
+
+
+#duvidasContainer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#duvidaTitulo{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#duvidaTitulo p{
+    color: white;
+    font-size: 35px;
+}
+
+#duvidasCards{
+    position: block;
+    height: auto;
+}
+
+.accordion {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #2C2C4B;
+    font-size: 22px;
+    color: #957EF2;
+  }
+
+  .accordion span{
+    font-size: 40px;
+    color: #957EF2;
+    transition: 0.2s all ease-in-out;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    padding: 15px 0;
+    color: white;
+    max-height: 0;
+  }
+
+  .panel p{
+    max-width: 1100px;
+    font-size: 21px;
+    line-height: 40px;
+  }
+
+.accordion.active span {
+    transform: rotate(45deg);
+}
+
+.panel.active {
+    display: block; 
+    max-height: 1000px; /* Altura máxima do painel quando está aberto */
+}
+
+
+#footerConteiner{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#cont1,#cont2,#cont3,#cont4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont1 a, #cont2 a{
+    text-decoration: none;
+    padding: 0 22px;
+    font-size: 13px;
+    transition: 0.2s all ease-in-out;
+}
+
+#cont1 a:hover{
+    color: white;
+}
+
+#cont2 a:hover{
+    color: #ccc;
+}
+
+#cont2 a, #cont3 p{
+    color: #7A63CE;
+}
+
+#cont1 a{
+    color: #997FF9;
+    font-weight: bold;
+}
+
+#cont2 a{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#cont3 p{
+    font-size: 14px;
+}
+
+#cont4 a{
+    padding: 0 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 700px) and (max-width: 950px){
+
+
+    #planosConteudoInfo{
+        flex-direction: column;
+    }
+
+    #planosConteudo p{
+        font-size: 16px;
+    }
+
+    .planosConteudoInfoTopicos{
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    #tabelaPrecos{
+        flex-direction: column;
+    }
+
+    .tabela{
+        width: 650px;
+        margin-bottom: 40px;
+    }
+
+    #planosAlerta{
+        width: 600px;
+    }
+
+    .item{
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .fotosIconesItem{
+        margin: 0;
+    }
+
+    #episodiosGratis{
+        flex-wrap: wrap;
+    }
+
+    .episodio a img{
+        width: 300px;
+    }
+ 
+    #episodioTitulo{
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #infoTelas img{
+        width: 670px;
+    }
+
+    .info p{
+        max-width: 150px;
+    }
+
+    .infoBottomConteudo img{
+        width: 300px;
+    }
+
+    .accordion{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 699px){
+
+
+    #planosConteudoInfo{
+        flex-direction: column;
+    }
+    
+    #tabelaPrecos{
+        flex-direction: column;
+    }
+
+    .tabela{
+        width: 480px;
+        margin-bottom: 30px;
+    }
+
+    #planosAlerta{
+        max-width: 400px;
+    }
+
+    .item{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    #carroselTitulo{
+        max-width: 480px;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        padding: 60px 0;
+    }
+
+    .carroselEsquerda p{
+        max-width: 480px;
+    }
+
+    .fotosIconesItem{
+        margin: 0;
+    }
+
+    .carroselDireita img{
+        width: 480px;
+    }
+
+    #episodioTitulo{
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #episodiosGratis{
+        flex-wrap: wrap;
+    }
+
+    .episodio a img{
+        width: 230px;
+    }
+
+    #infoTelas img{
+        width: 400px;
+    }
+
+    #infoConteudo{
+        flex-direction: column;
+    }
+
+    .info{
+        height: 100px;
+    }
+
+    .info p{
+        max-width: 470px;
+    }
+    
+    #infoBottom{
+        flex-direction: column;
+    }
+
+    #duvidaTitulo p{
+        font-size: 28px;
+    }
+
+    .accordion{
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .accordion span{
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .panel p{
+        font-size: 17px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #cont1, #cont2{
+        flex-wrap: wrap;
+    }
+
+    #cont1 a {
+        padding-top: 15px;
+    }
+
+    #cont3 {
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 499px){
+
+    header{
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 50px;
+    }
+
+    #headerContainerLeft a img{
+        width: 80px;
+    }
+    
+    #headerContainerRight{
+        margin-right: 8px;
+    }
+
+    #headerContainerRight a:nth-child(2){
+        padding: 8px 17px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    #headerContainerRight a{
+        font-size: 10px;
+    }
+
+    #containerContent{
+        width: 290px;
+        font-size: 35px;
+    }
+
+    #planosConteudo{
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #planosConteudoInfo{
+        flex-direction: column;
+        max-width: 300px;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .planosConteudoInfoTopicos{
+        line-height: 30px;
+    }
+
+    #tabelaPrecos{
+        flex-direction: column;
+    }
+
+    .tabela{
+        max-width: 300px;
+        height: 350px;
+        margin-bottom: 35px;
+    }
+
+    #planosAlerta{
+        max-width: 290px;
+    }
+
+    #carroselTitulo{
+        width: 310px;
+        margin: auto;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .item{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .carroselEsquerda h3{
+        font-size: 25px;
+        max-width: 310px;
+    }
+
+    .carroselEsquerda h5{
+        font-size: 14px;
+        width: 170px;
+    }
+
+    .carroselEsquerda p{
+        max-width: 300px;
+    }
+
+    .fotosIconesItem{
+        margin: 0;
+    }
+
+    .fotosIconesItem{
+        padding: 8px;
+    }
+
+    .fotosIconesItem img{
+        width: 60px;
+    }
+
+    .fotosIconesItem p{
+        font-size: 12px;
+    }
+
+    .carroselDireita img{
+        max-width: 300px;
+    }
+    
+    #episodioTitulo{
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #episodiosGratis{
+        flex-wrap: wrap;
+    }
+
+    .episodio{
+        margin-bottom: 15px;
+    }
+
+    .episodio a img{
+        width: 270px;
+    }
+
+    #btnAssistir a{
+        padding: 8px 19px;
+        font-size: 13px;
+    }
+
+    #infoTitulo{
+        max-width: 300px;
+        text-align: center;
+    }
+
+    #infoTelas img{
+        max-width: 300px;
+    }
+
+    #infoConteudo{
+        flex-direction: column;
+    }
+
+    .info p{
+        max-width: 260px;
+    }
+
+    #infoBottom{
+        flex-direction: column;
+    }
+
+    .infoBottomConteudo p{
+        font-size: 28px;
+        max-width: 300px;
+    }
+
+    #catalogoTitulo p{
+        max-width: 300px;
+        text-align: center;
+    }
+
+    #catalogo1,#catalogo2,#catalogo3,#catalogo4,#catalogo5,#catalogo6{
+        max-width: 300px;
+    }
+
+    #duvidaTitulo p{
+        max-width: 300px;
+    }
+
+    .accordion{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .accordion span{
+        font-size: 27px;
+    }
+
+    .panel p{
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
+    #cont1, #cont2{
+        flex-wrap: wrap;
+    }
+
+    #cont2 a{
+        padding-top: 10;
+        margin-bottom: 0;
+    }
+
+    #cont1 a {
+        padding-top: 15px;
+    }
+
+    #cont3 {
+        max-width: 280px;
+        margin: auto;
+        text-align: center;
+    }
+
+}
